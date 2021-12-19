@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url(img/male-g9062b3982_1920.jpg);
+        height: 1920px;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        color: whitesmoke;
+        display: inline-block;
+        position: absolute;
+        LEFT: 40px;
+        top: 18px;
+    }
+
+    .mid {
+        /* border: 2px solid green; */
+        display: block;
+        color: whitesmoke;
+        position: absolute;
+        top: 20px;
+        left: 30%;
+        width: 40%;
+        margin: 20px auto20
+    }
+
+    .right {
+        /* border: 2px solid yellow; */
+        color: whitesmoke;
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 33px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        /* font-size: 25px; */
+        color: honeydew;
+    }
+
+    .navbar li a {
+        color: honeydew;
+        text-decoration: none;
+        padding: 30px 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline; 
+        color: grey; 
+    }
+
+
+    /* .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    } */
+
+    .left img {
+        width: 110px;
+        filter: invert(1);
+
+    }
+
+    .left {
+        /* width: 90px; */
+    }
+
+    .left div {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        padding: 4px 15px;
+        margin: 6px;
+        color: white;
+        background-color: black;
+    }
+
+    .btn:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 206px 91px;
+
+        width: 29%;
+        display: block;
+        border-radius: 2px;
+        color: white;
+        border-radius: 10px;
+    }
+
+    .forma-group input {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        text-align: center;
+        display: block;
+        /* width: 500 px; */
+        padding: 6px;
+        border: 2px solid black;
+        margin: 11px auto;
+        padding: 0px 50px;
+        border-radius: 7px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        margin: auto;
+        width: 55%;
+        border-radius: 7px;
+
+    }
+
+    /* .yy {
+        /* color: grey; */
+        opacity: 1px;
+    } */
+</style>
+
+<body>
+
+    <header class="hedaer">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/weight-g68f64b085_1280.png" alt="">
+            <div>AR FITNESS</div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a> </li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">call us now </button><button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> Join the Best Gym in Kolhapur
+            <form action="action.php">
+                <div class="forma-group">
+                    <input type="text" name="" placeholder="Enter Your Name">
+                </div>
+                <div class="forma-group">
+                    <input type="text" name="" placeholder="Enter Your Email">
+                </div>
+                <div class="forma-group">
+                    <input type="text" name="" placeholder="Enter Your Age">
+                </div>
+                <div class="forma-group">
+                    <input type="text" name="" placeholder="Enter Your Gender">
+                </div>
+                <button class="btn">Submmit</button>
+            </form>
+        </h1>
+    </div>
+</body>
+
+</html>
